@@ -46,5 +46,5 @@ func main() {
 	prova := user.recuperadati()
 	fmt.Println("Utente : ", prova)
 	fmt.Printf("Utente - Nome : %s\n", user.recuperanome())
-	fmt.Println("Ciao , questo è GO !")
+	fmt.Println("Ciao Belli , questo è GO !!!")
 }
