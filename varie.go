@@ -47,4 +47,5 @@ func main() {
 	fmt.Println("Utente : ", prova)
 	fmt.Printf("Utente - Nome : %s\n", user.recuperanome())
 	fmt.Println("Ciao Belli , questo è GO !!!")
+	fmt.Println("bellissimi !!!!")
 }
