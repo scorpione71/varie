@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 )
 
 type operazioni interface {
@@ -40,7 +42,9 @@ func main() {
 	fmt.Printf("Inserisci età : ")
 	fmt.Scan(&us.eta)
 	fmt.Printf("Inserisci Indirizzo : ")
-	fmt.Scan(&us.indirizzo)
+	scanner := bufio.NewScanner(os.Stdin)
+	scanner.Scan()
+	us.indirizzo = scanner.Text()
 	var user operazioni = utente{us.nome, us.cognome, us.eta, us.indirizzo}
 	user.salvadati(us.nome, us.cognome, us.eta, us.indirizzo)
 	prova := user.recuperadati()
