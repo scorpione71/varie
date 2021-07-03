@@ -51,5 +51,6 @@ func main() {
 	fmt.Println("Utente : ", prova)
 	fmt.Printf("Utente - Nome : %s\n", user.recuperanome())
 	fmt.Println("Esempio di Interfaccia !!!")
+	fmt.Printf("Grande GO Lang !!!!")
 
 }
