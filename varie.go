@@ -50,5 +50,5 @@ func main() {
 	prova := user.recuperadati()
 	fmt.Println("Utente : ", prova)
 	fmt.Printf("Utente - Nome : %s\n", user.recuperanome())
-
+	fmt.Println("ciao")
 }
