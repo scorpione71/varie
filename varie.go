@@ -52,4 +52,5 @@ func main() {
 	fmt.Printf("Utente - Nome : %s\n", user.recuperanome())
 	fmt.Println("ciao")
 	fmt.Println("prova")
+	fmt.Println("riprova")
 }
