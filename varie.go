@@ -53,4 +53,5 @@ func main() {
 	fmt.Println("ciao")
 	fmt.Println("prova")
 	fmt.Println("riprova")
+	fmt.Println("ver")
 }
